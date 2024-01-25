@@ -41,3 +41,22 @@
     
 })(jQuery);
 
+var pieChartData = {
+    datasets: [{
+        labels: [],
+      data: [75, 25],
+      backgroundColor: ['#FF6384', '#FFCE56'],
+    }],
+  };
+
+  // Get the context of the canvas element
+  var ctx = document.getElementById('myPieChart').getContext('2d');
+
+  // Create the pie chart
+  var myPieChart = new Chart(ctx, {
+    type: 'pie',
+    data: pieChartData,
+  });
+
+  console.log("EEEEEEE")
+

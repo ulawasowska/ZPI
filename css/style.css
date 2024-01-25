@@ -58,6 +58,12 @@ body {
   background-color: #fff;
 }
 
+.edit_btn {
+  position: absolute !important;
+  bottom: 1rem !important;
+  right: 1rem !important;
+}
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
